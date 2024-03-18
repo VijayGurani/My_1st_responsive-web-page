@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+   position: relative;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#logo{
+    margin: 6px 26px;
+}
+#logo img{
+    height: 34px;
+    margin: 4px 8px;
+    border-radius:100%;
+    border: 2px solid black;
+}
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.2rem;
+  
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 2px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: "Playball", cursive;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: #fff;
+   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    justify-content: center;
+    align-items: center;
+height: 590px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:no-repeat center center/cover url(https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.86;
+}
+#home h1{
+    color: rgb(250, 247, 247);
+    text-align: center;
+    
+}
+#home p{
+    color: rgb(247, 242, 242);
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Zilla Slab", serif;
+}
+.para{
+    padding: 10px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "Orbitron", sans-serif;
+}
+.but{
+    padding: 5px 18px;
+    margin: 18px;
+    background-color:rgb(247, 238, 238);
+    border: 1px solid rgb(27, 6, 6);
+    color:rgb(15, 15, 15);
+    border-radius: 12px;
+    font-family: "Playball", cursive;
+    font-size: 1rem;
+    transition: all;
+}
+.but:hover{
+    transform: scale(1.2);
+ cursor: pointer;
+}
+.para{
+    font-size: 2.2rem;
+    font-family: "Orbitron", sans-serif;
+   text-align: center;
+   /* color: white; */
+}
+.services{
+    /* margin: 4px; */
+   display: flex;
+   
+}
+.box{
+    border: 2px solid red;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f5f2f2;
+}
+.box h2{
+    font-size: 1.8rem;
+    font-family: "Kode Mono", monospace;
+}
+.box p{
+    font-size: 1.4rem;
+    font-family: "Zilla Slab", serif;
+}
+
+#box1:hover{
+transform:scale(1.1);
+
+}
+#box2:hover{
+    transform:scale(1.1);
+}
+#box3:hover{
+    transform:scale(1.1);
+}
+.services img{
+   height: 200px;
+   width: 200px;
+   display: block;
+   margin: auto;
+}
+#clients{
+    height:auto;
+    position: relative;
+}
+#client{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* height: 174px; */
+
+}
+#client img{
+  height: 100px;
+  width: 100px;
+}
+.our{
+
+    margin: 28px;
+}
+#clients::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:no-repeat center center/cover url(https://png.pngtree.com/thumb_back/fh260/background/20191205/pngtree-beer-bubbles-background-yellow-summer-cool-image_324069.jpg);
+z-index: -1;
+opacity: 0.6;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact input,
+.contact textarea{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 6px;
+
+}
+#contactus{
+    position: relative;
+
+}
+#contactus::before{
+   content: "";
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   background:no-repeat center center/cover url(https://media.istockphoto.com/id/1071406584/photo/business-and-information-technology.jpg?s=2048x2048&w=is&k=20&c=ZsGS0x0qD9bekexN6EQeBPGdNvKTFxsf1-zfj0KFyOY=);
+   z-index: -1;
+   opacity: 0.6;
+}
+.contact
+{
+    font-family: "Playball", cursive;
+    font-size: 0.9rem;
+
+
+}
+.foot{
+    text-align: center;
+    background-color: #0c0c0c;
+    color: white;
+   
+}
